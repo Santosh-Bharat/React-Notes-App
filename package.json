@@ -1,13 +1,14 @@
 {
   "name": "react-notes-app",
-  "private": true,
+  "homepage": "https://santosh-bharat.github.io/React-Notes-App/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "lucide-react": "^0.476.0",
@@ -24,6 +25,7 @@
     "eslint-plugin-react": "^7.37.4",
     "eslint-plugin-react-hooks": "^5.0.0",
     "eslint-plugin-react-refresh": "^0.4.19",
+    "gh-pages": "^6.3.0",
     "globals": "^15.15.0",
     "vite": "^6.2.0"
   }
