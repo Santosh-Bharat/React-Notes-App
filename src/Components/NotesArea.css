@@ -1,0 +1,83 @@
+/* Notes Area Container */
+.notes-area {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    background-color: #f7ecdc;
+  }
+  
+  /* Notes Header */
+  .notes-header {
+    background-color: #001f8b;
+    color: white;
+    padding: 16px;
+  }
+  
+  .notes-header h2 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin: 0;
+  }
+  
+  /* Notes List */
+  .notes-list {
+    flex: 1;
+    overflow-y: auto;
+    padding: 16px;
+  }
+  
+  /* Note Item */
+  .note-item {
+    background-color: white;
+    padding: 16px;
+    border-radius: 8px;
+    margin-bottom: 16px;
+  }
+  
+  .note-item p {
+    margin: 0;
+  }
+  
+  .note-timestamp {
+    font-size: 0.875rem;
+    color: #666;
+    margin-top: 8px;
+  }
+  
+  /* Notes Form */
+  .notes-form {
+    background-color: white;
+    padding: 16px;
+  }
+  
+  .form-container {
+    display: flex;
+    gap: 8px;
+  }
+  
+  .form-container textarea {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: none;
+    font-size: 0.875rem;
+  }
+  
+  .form-container button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #666;
+    padding: 8px;
+    align-self: flex-end;
+  }
+  
+  .form-container button:disabled {
+    color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .form-container button:not(:disabled):hover {
+    color: #001f8b;
+  }
